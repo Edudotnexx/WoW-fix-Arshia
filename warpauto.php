@@ -6,7 +6,7 @@
     $warp = "//profile-title: base64:8J2QhPCdkKbwnZCa8J2QnfCdkIbwnZCr8J2QmvCdkKnwnZCh8J2QovCdkJwgLSB7V0FSUH0=\n";
     $warp .= "//profile-update-interval: 1\n";
     $warp .= "//subscription-userinfo: upload=0; download=12503400000; total=10737418240000000; expire=0\n";
-    $warp .= "//profile-web-page-url: https://github.com/Edoudotnexx\n\n";
+    $warp .= "//profile-web-page-url: https://github.com/Edudotnexx\n\n";
     $warp .= "warp://auto#@EmadGraphic🇮🇷 &&detour=warp://auto#@EmadGraphic🇩🇪";
     $warp .= "\n";
     $warp .= "warp://@auto/?ifp=5-10#🇮🇷𓄂𓆃 &&detour=warp://@auto/?ifp=5-10#🇩🇪@@EmadGraphic";
