@@ -3,13 +3,13 @@
     $getList = file_get_contents('https://raw.githubusercontent.com/arshiacomplus/WoW/main/warpauto.json?v1.'.time());
     $strings = explode("\n", $getList);
 
-    $warp = "//profile-title: base64:44CY4oC0yrfhtYPKs+G1luKAt+OAmfCThILwk4aD\n";
+    $warp = "//profile-title: base64:8J2QhPCdkKbwnZCa8J2QnfCdkIbwnZCr8J2QmvCdkKnwnZCh8J2QovCdkJwgLSB7V0FSUH0=\n";
     $warp .= "//profile-update-interval: 1\n";
-    $warp .= "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=0\n";
-    $warp .= "//profile-web-page-url: https://github.com/arshiacomplus\n\n";
-    $warp .= "warp://auto#mansor427🇮🇷 &&detour=warp://auto#@arshiacomplus🇩🇪";
+    $warp .= "//subscription-userinfo: upload=0; download=12503400000; total=10737418240000000; expire=0\n";
+    $warp .= "//profile-web-page-url: https://github.com/Edoudotnexx\n\n";
+    $warp .= "warp://auto#@EmadGraphic🇮🇷 &&detour=warp://auto#@EmadGraphic🇩🇪";
     $warp .= "\n";
-    $warp .= "warp://@auto/?ifp=5-10#🇮🇷𓄂𓆃 &&detour=warp://@auto/?ifp=5-10#🇩🇪@arshiacomplus";
+    $warp .= "warp://@auto/?ifp=5-10#🇮🇷𓄂𓆃 &&detour=warp://@auto/?ifp=5-10#🇩🇪@@EmadGraphic";
     $warp .= "\n";
 
    $i = 1;
@@ -33,6 +33,6 @@ foreach ($strings as $val) {
     }
 }
 
-$warp .= "\n" . $first_ip . '#𓄂𓆃 🇮🇷 IP&&detour=' . $second_ip . '#@arshiacomplus 🇩🇪 IP';
+$warp .= "\n" . $first_ip . '#𓄂𓆃 🇮🇷 IP&&detour=' . $second_ip . '#@EmadGraphic 🇩🇪 IP';
 
     file_put_contents("subwarp/warp", $warp);
