@@ -82,13 +82,13 @@ def warp_ip():
     creation_time = os.path.getctime(result_path)
     formatted_time = datetime.datetime.fromtimestamp(creation_time).strftime("%Y-%m-%d %H:%M:%S")
     for i, ip in enumerate(Bestip):
-        config_prefix = f'warp://{Bestip[0]}?ifp=1-3&ifpm=m4#@arshiacomplus🇮🇷&&detour=warp://{Bestip[1]}?ifp=1-3&ifpm=m6#arshiacomplus🇩🇪WoW\nwarp://{Bestip[0]}?ifp=2-4&ifpm=m3#@arshiacomplus🇮🇷&&detour=warp://{Bestip[1]}?ifp=1-3&ifpm=m6#arshiacomplus🇩🇪WoW\nwarp://@auto6/?ifp=1-3&ifpm=m4#LocalV6&&detour=warp://@auto4/?ifp=1-3&ifpm=m6#WoWV4_v6'
+        config_prefix = f'warp://{Bestip[0]}?ifp=1-3&ifpm=m4#@EmadGraphic🇮🇷&&detour=warp://{Bestip[1]}?ifp=1-3&ifpm=m6#@EmadGraphic🇩🇪WoW\nwarp://{Bestip[0]}?ifp=2-4&ifpm=m3#@arshiacomplus🇮🇷&&detour=warp://{Bestip[1]}?ifp=1-3&ifpm=m6#arshiacomplus🇩🇪WoW\nwarp://@auto6/?ifp=1-3&ifpm=m4#LocalV6&&detour=warp://@auto4/?ifp=1-3&ifpm=m6#WoWV4_v6'
     return config_prefix, formatted_time
 
 title = "//profile-title: base64:" + base64.b64encode('Warp2'.encode('utf-8')).decode('utf-8') + "\n"
 update_interval = "//profile-update-interval: 1\n"
-sub_info = "//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n"
-profile_web = "//profile-web-page-url: https://github.com/mansor427\n"
+sub_info = "//subscription-userinfo: upload=0; download=345555667780; total=10737418240000000; expire=2546249531\n"
+profile_web = "//profile-web-page-url: https://github.com/Edudotnexx\n"
 last_modified = "//last update on: " + warp_ip()[1] + "\n"
 configs = warp_ip()[0]
 with open('warp2.json', 'w') as op:
