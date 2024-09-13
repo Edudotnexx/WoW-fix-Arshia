@@ -1,6 +1,6 @@
 <?php
 
-    $getList = file_get_contents('https://raw.githubusercontent.com/arshiacomplus/WoW/main/warpauto.json?v1.'.time());
+    $getList = file_get_contents('https://raw.githubusercontent.com/Edudotnexx/WoW-fix-Arshia/main/warpauto.json?v1.'.time());
     $strings = explode("\n", $getList);
 
     $warp = "//profile-title: base64:8J2QhPCdkKbwnZCa8J2QnfCdkIbwnZCr8J2QmvCdkKnwnZCh8J2QovCdkJwgLSB7V0FSUH0=\n";
